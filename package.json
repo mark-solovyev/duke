@@ -1,0 +1,24 @@
+{
+  "name": "duke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy": "gulp copy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@mark-solovyev.github.com:mark-solovyev/duke.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^4.35.0"
+  },
+  "dependencies": {
+    "gulp-rm": "^2.0.0"
+  }
+}
