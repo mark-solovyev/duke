@@ -1,0 +1,22 @@
+extends template.pug
+block content
+    h1 Это самый большой заголовок
+    ul
+        li Элемент списка 1 (version)
+        li Элемент списка 2
+        li Третий элемент списка (3)
+        li Элемент списка 4
+    block foraka
+        .ssaka adsfadsf
+    .article трулялял
+    mixin roja(title)
+        .article
+            h1 #{title}
+            if block
+                block
+            else
+                p Не предоставлено никакой инфы
+    
+    +roja("perdak")
+        p Инфа предоставлена
+        p Предоставлена ещё раз

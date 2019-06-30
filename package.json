@@ -14,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
     "gulp-webpack": "^1.5.0",
     "webpack": "^4.35.0"
   },
